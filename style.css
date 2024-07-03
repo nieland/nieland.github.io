@@ -27,6 +27,15 @@ body {
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.p-credit {
+    font-size: x-small;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.links {
+    font-weight: 600;
+}
 h1 {
     margin: 0;
     font-size: xx-large;
@@ -42,13 +51,4 @@ a {
     text-decoration: none;
     color: #0050a1;
     font-size: 1em;
-}
-.p-credit {
-    font-size: x-small;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.links {
-    font-weight: 600;
 }
