@@ -1,54 +1,56 @@
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
     margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: #f5f5f5;
 }
 .container {
-    text-align: center;
+    text-align: left;
     background-color: white;
     padding: 40px;
-    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container-exp {
+    text-align: left;
+}
+.container-about {
+    text-align: left;
+}
+.container-hobby {
+    line-height: 25px;
 }
 .profile-picture {
     margin-top: 20px;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 5%;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .p-credit {
-    font-size: x-small;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-size: 13px;
+    text-align: left;
 }
 .links {
     font-weight: 600;
 }
 h1 {
     margin: 0;
-    font-size: xx-large;
+    font-size: 35px;
     color: black;
     font-weight: 900;
 }
 p {
     margin: 20px 0;
-    font-size: 1.2em;
+    font-size: medium;
     color: #5e5e5e;
 }
 a {
     text-decoration: none;
     color: #0050a1;
     font-size: 1em;
+}
+li {
+    color: #5e5e5e;
 }
